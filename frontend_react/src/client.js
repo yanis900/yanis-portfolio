@@ -1,5 +1,5 @@
 // eslint-disable-next-line
-import sanityClient, { SanityClient} from '@sanity/client';
+import sanityClient, { SanityClient } from '@sanity/client';
 import imageUrlBuilder from '@sanity/image-url';
 
 export const client = sanityClient({
