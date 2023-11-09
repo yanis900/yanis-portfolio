@@ -1,7 +1,7 @@
-import sanityClient from '@sanity/client';
+// eslint-disable-next-line
+import sanityClient, { SanityClient} from '@sanity/client';
 import imageUrlBuilder from '@sanity/image-url';
 
-// eslint-disable-next-line
 export const client = sanityClient({
     projectId: process.env.REACT_APP_SANITY_PROJECT_ID,
     dataset: 'production',
